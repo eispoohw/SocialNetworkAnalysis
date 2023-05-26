@@ -1,12 +1,12 @@
+import datetime
+import re as regex
+import time
+from collections import defaultdict
 from typing import Union
 
-import requests as re
-import re as regex
-from collections import defaultdict
-import time
 import pandas as pd
+import requests as re
 from tqdm import tqdm
-import datetime
 
 
 def write_data(data: Union[pd.DataFrame, list], filename: str):
